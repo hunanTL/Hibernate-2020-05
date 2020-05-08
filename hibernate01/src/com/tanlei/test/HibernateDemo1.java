@@ -37,10 +37,10 @@ public class HibernateDemo1 {
 
         session.save(customer);//保存一个用户
 
-        //6. 事务提交
+        //6.事务提交
         transaction.commit();
 
-        //7. 释放资源
+        //7.释放资源
         session.close();
         sessionFactory.close();
 
